@@ -13,5 +13,21 @@ The company assigned to the group is <b> Repower Energy Development Corporation,
      | Dataset | Description | Format | Purpose |
      |---------|-------------|--------|---------|
      |OSM Hydrography | OpenStreetMap of Philippine rivers and streams | GeoJSON / Shapefile | Provides the base geometrics of all Philippine listed river lines and streams|
-     |Philippine GIS Catchments | Catchment boundaries and location data | Shapefile | Provides the physical basin metrics such as the <b> area, slope, and elevation </b> which is useful to determine its usability for Hydropowered projects. | 
+     |Philippine GIS Catchments | Catchment boundaries and location data | Shapefile | Provides the physical basin metrics such as the <b> area, slope, and elevation </b> which is useful to determine its usability for Hydropowered projects. |
+     | Philippine National Hydrological Model Dataset | Modeling dataset used to determine long-term average runoff by province. | CSV | Provides hydrologic runoff used to estimate discharge and hydropower. Helps determine energy per stream and river. |
+
+## Estimated Hydropower 
+In the River_dataset there is a column with `Status` which is a categorical label derived from the HPI score, summarizing overall hydropower suitability. Below is how it was computed: 
+
+$$
+P = \rho g Q H \eta
+$$
+
+where:
+
+- \( \rho = 1000 \, \text{kg/m}^3 \) — water density  
+- \( g = 9.81 \, \text{m/s}^2 \) — gravitational acceleration  
+- \( Q \) — discharge (m³/s)  
+- \( H \) — catchment relief (m)  
+- \( \eta = 0.75 \) — assumed efficiency factor
      
