@@ -10,6 +10,8 @@ The company assigned to the group is <b> Repower Energy Development Corporation,
    - This dataset was gathered through webscrapping PSE accredited hydropowered companies. 
 2. River Dataset
    - This dataset was gathered through publicly sourced geospatial and Philippine waterway datasets. Sources specifically from:
-     | OSM Hydrography | Philippine GIS Catchments | Philippine National Hydrological Model Dataset|
-     | ----------------|---------------------------|-----------------------------------------------|
+     | Dataset | Description | Format | Purpose |
+     |---------|-------------|--------|---------|
+     |OSM Hydrography | OpenStreetMap of Philippine rivers and streams | GeoJSON / Shapefile | Provides the base geometrics of all Philippine listed river lines and streams|
+     |Philippine GIS Catchments | Catchment boundaries and location data | Shapefile | Provides the physical basin metrics such as the <b> area, slope, and elevation </b> which is useful to determine its usability for Hydropowered projects. | 
      
