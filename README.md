@@ -26,8 +26,19 @@ $$
 where:
 
 - $\( \rho = 1000 \, \text{kg/m}^3 \)$ — water density  
-- \( g = 9.81 \, \text{m/s}^2 \) — gravitational acceleration  
-- \( Q \) — discharge (m³/s)  
-- \( H \) — catchment relief (m)  
-- \( \eta = 0.75 \) — assumed efficiency factor
+- $\( g = 9.81 \, \text{m/s}^2 \)$ — gravitational acceleration  
+- $\( Q \)$ — discharge (m³/s)  
+- $\( H \)$ — catchment relief (m)  
+- $\( \eta = 0.75 \)$ — assumed efficiency factor
+
+Which are all derived from the <b> Philippine National Hydrological Model Dataset</b>. After computation each river, stream is scored by a range: 
+
+| HPI Range | Status | Definition | 
+|-----------|--------|------------|
+| ≥ 80 | Excellent | This means that the river or stream has a very high hydropower potential. | 
+| 60 - 79 | Good | The river or stream has potential for hydropowered projects but needs further risk assessment. | 
+| 40 - 59 | Moderate to poor | The river or stream has a limited or low hydropower potential but could be a sign for micro to mini hydropower projects. | 
+| < 40 | Poor | Low hydrological and topographical potentials. | 
+
+
      
