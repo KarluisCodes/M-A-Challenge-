@@ -9,4 +9,7 @@ The company assigned to the group is <b> Repower Energy Development Corporation,
 1. PSE Philippines
    - This dataset was gathered through webscrapping PSE accredited hydropowered companies. 
 2. River Dataset
-   - This dataset was gathered through publicly sourced geospatial and Philippine waterway datasets. Sources specifically from
+   - This dataset was gathered through publicly sourced geospatial and Philippine waterway datasets. Sources specifically from:
+     | OSM Hydrography | Philippine GIS Catchments | Philippine National Hydrological Model Dataset|
+     | ----------------|---------------------------|-----------------------------------------------|
+     
