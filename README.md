@@ -4,8 +4,9 @@ A dynamic platform for students to develop and expand their skills in tackling r
 ## Repower Energy Development Corporation 
 The company assigned to the group is <b> Repower Energy Development Corporation, </b> a Philippine renewable energy company focused on developing run-of-river hydropower projects. As a wholly-owned subsidiary of Pure Energy Holdings Corporation, REDC utilizes a "clustered approach" to share infrastructure and reduce costs for its hydropower plants
 
-In this repository you will find three main folders which will be highlighted in the table of contents section. 
+## Dataset 
 
-## Table of Contents
-
-- [
+1. PSE Philippines
+   - This dataset was gathered through webscrapping PSE accredited hydropowered companies. 
+2. River Dataset
+   - This dataset was gathered through publicly sourced geospatial and Philippine waterway datasets. Sources specifically from
