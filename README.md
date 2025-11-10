@@ -25,7 +25,7 @@ $$
 
 where:
 
-- \( \rho = 1000 \, \text{kg/m}^3 \) — water density  
+- $\( \rho = 1000 \, \text{kg/m}^3 \)$ — water density  
 - \( g = 9.81 \, \text{m/s}^2 \) — gravitational acceleration  
 - \( Q \) — discharge (m³/s)  
 - \( H \) — catchment relief (m)  
