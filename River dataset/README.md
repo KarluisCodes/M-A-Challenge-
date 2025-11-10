@@ -1,4 +1,4 @@
-## Columns Overview
+## Columns Overview - Analysis Dataset
 | Column Name | Type | Description | Definition | 
 |-------------|------|-------------|------------|
 | name | text | river and stream name | Geographical representation of each river and stream located in the Philippines. |
